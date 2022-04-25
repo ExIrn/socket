@@ -1,0 +1,8 @@
+version:
+services:
+ client:
+  image: registry.devops.mmi-pt.com/dwi-backend:0.0.1
+  container_name: dwi-backend:0.0.1
+  build: .
+  ports:
+   -"8080:8081"
